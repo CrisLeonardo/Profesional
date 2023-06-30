@@ -1,0 +1,15 @@
+C:\Users\minec\Desktop\Programacion1\Batleshirp Final\bin\Debug\net7.0\Batleshirp Final.exe
+C:\Users\minec\Desktop\Programacion1\Batleshirp Final\bin\Debug\net7.0\Batleshirp Final.deps.json
+C:\Users\minec\Desktop\Programacion1\Batleshirp Final\bin\Debug\net7.0\Batleshirp Final.runtimeconfig.json
+C:\Users\minec\Desktop\Programacion1\Batleshirp Final\bin\Debug\net7.0\Batleshirp Final.dll
+C:\Users\minec\Desktop\Programacion1\Batleshirp Final\bin\Debug\net7.0\Batleshirp Final.pdb
+C:\Users\minec\Desktop\Programacion1\Batleshirp Final\obj\Debug\net7.0\Batleshirp Final.csproj.AssemblyReference.cache
+C:\Users\minec\Desktop\Programacion1\Batleshirp Final\obj\Debug\net7.0\Batleshirp Final.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minec\Desktop\Programacion1\Batleshirp Final\obj\Debug\net7.0\Batleshirp Final.AssemblyInfoInputs.cache
+C:\Users\minec\Desktop\Programacion1\Batleshirp Final\obj\Debug\net7.0\Batleshirp Final.AssemblyInfo.cs
+C:\Users\minec\Desktop\Programacion1\Batleshirp Final\obj\Debug\net7.0\Batleshirp Final.csproj.CoreCompileInputs.cache
+C:\Users\minec\Desktop\Programacion1\Batleshirp Final\obj\Debug\net7.0\Batleshirp Final.dll
+C:\Users\minec\Desktop\Programacion1\Batleshirp Final\obj\Debug\net7.0\refint\Batleshirp Final.dll
+C:\Users\minec\Desktop\Programacion1\Batleshirp Final\obj\Debug\net7.0\Batleshirp Final.pdb
+C:\Users\minec\Desktop\Programacion1\Batleshirp Final\obj\Debug\net7.0\Batleshirp Final.genruntimeconfig.cache
+C:\Users\minec\Desktop\Programacion1\Batleshirp Final\obj\Debug\net7.0\ref\Batleshirp Final.dll
