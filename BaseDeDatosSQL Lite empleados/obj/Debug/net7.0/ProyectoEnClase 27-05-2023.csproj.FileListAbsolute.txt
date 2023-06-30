@@ -1,0 +1,42 @@
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\obj\Debug\net7.0\ProyectoEnClase 27-05-2023.csproj.AssemblyReference.cache
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\obj\Debug\net7.0\ProyectoEnClase 27-05-2023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\obj\Debug\net7.0\ProyectoEnClase 27-05-2023.AssemblyInfoInputs.cache
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\obj\Debug\net7.0\ProyectoEnClase 27-05-2023.AssemblyInfo.cs
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\obj\Debug\net7.0\ProyectoEnClase 27-05-2023.csproj.CoreCompileInputs.cache
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\ProyectoEnClase 27-05-2023.exe
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\ProyectoEnClase 27-05-2023.deps.json
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\ProyectoEnClase 27-05-2023.runtimeconfig.json
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\ProyectoEnClase 27-05-2023.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\ProyectoEnClase 27-05-2023.pdb
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\EntityFramework.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\System.Data.SQLite.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\System.Data.SQLite.EF6.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\obj\Debug\net7.0\ProyectoEnClase 27-05-2023.csproj.CopyComplete
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\obj\Debug\net7.0\ProyectoEnClase 27-05-2023.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\obj\Debug\net7.0\refint\ProyectoEnClase 27-05-2023.dll
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\obj\Debug\net7.0\ProyectoEnClase 27-05-2023.pdb
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\obj\Debug\net7.0\ProyectoEnClase 27-05-2023.genruntimeconfig.cache
+C:\Users\minec\Desktop\Programacion1\ProyectoEnClase 27-05-2023\obj\Debug\net7.0\ref\ProyectoEnClase 27-05-2023.dll
