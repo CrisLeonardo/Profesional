@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.Graphic.Graphic">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="798" height="610"/>
+    </constraints>
+    <properties>
+      <background color="-593426"/>
+      <foreground color="-7773363"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="1b60d" layout-manager="GridLayoutManager" row-count="3" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-593426"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="73abf" binding="extraP2" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="5" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-593426"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="29f1f" binding="extraP1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-593426"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="6c219" class="javax.swing.JLabel" binding="contraseñaLabel">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Unispace" size="20"/>
+              <foreground color="-16777216"/>
+              <text value="Contraseña"/>
+            </properties>
+          </component>
+          <component id="b185a" class="javax.swing.JTextField" binding="textFieldUser">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-15648442"/>
+              <caretColor color="-593426"/>
+              <disabledTextColor color="-593426"/>
+              <foreground color="-593426"/>
+              <selectedTextColor color="-593426"/>
+              <selectionColor color="-1"/>
+            </properties>
+          </component>
+          <component id="9ac9" class="javax.swing.JLabel" binding="usuarioLabel">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4935279"/>
+              <font name="Unispace" size="20"/>
+              <foreground color="-16777216"/>
+              <text value="Usuario"/>
+            </properties>
+          </component>
+          <component id="75b70" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-15648442"/>
+              <foreground color="-593426"/>
+              <selectionColor color="-1"/>
+            </properties>
+          </component>
+          <component id="82844" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1213135"/>
+              <enabled value="true"/>
+              <font name="Roboto Medium" size="14"/>
+              <foreground color="-13688255"/>
+              <text value="Salir"/>
+            </properties>
+          </component>
+          <component id="3c77e" class="javax.swing.JButton" binding="entrarButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1213135"/>
+              <enabled value="true"/>
+              <font name="Roboto Medium" size="14"/>
+              <foreground color="-13688255"/>
+              <text value="Entrar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="d2d2a" class="javax.swing.JLabel" binding="iniciaSesionLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13688255"/>
+          <font name="Unispace" size="30"/>
+          <text value="Inicia Sesión"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

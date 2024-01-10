@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.Graphic.Graphic2">
+  <grid id="27dc6" binding="panel2" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="836" height="580"/>
+    </constraints>
+    <properties>
+      <background color="-2433615"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="dd1d" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="300"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15648442"/>
+          <doubleBuffered value="false"/>
+          <focusCycleRoot value="false"/>
+          <font name="Source Code Pro" size="20"/>
+          <foreground color="-593426"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="true"/>
+          <tabLayoutPolicy value="0"/>
+          <tabPlacement value="2"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="7f752" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Crear"/>
+            </constraints>
+            <properties>
+              <background color="-2433615"/>
+              <font name="Unispace" size="10"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <tabbedpane id="3bf49" binding="tabbedPane2" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-7773363"/>
+                  <enabled value="true"/>
+                  <font name="Segoe UI Black"/>
+                  <foreground color="-13688255"/>
+                  <inheritsPopupMenu value="false"/>
+                  <opaque value="true"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="fb288" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Estudiante"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2433615"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="8ffbc" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-15132391"/>
+                          <font name="Unispace" size="10"/>
+                          <text value="Nombre del Estudiante"/>
+                        </properties>
+                      </component>
+                      <component id="18a9d" class="javax.swing.JTextField" binding="InombreE">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-593426"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="ffef1" class="javax.swing.JTextField" binding="IApellidoE">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-593426"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="6d752" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-15132391"/>
+                          <font name="Unispace" size="10"/>
+                          <text value="Apellido del Estudiante"/>
+                        </properties>
+                      </component>
+                      <component id="41638" class="javax.swing.JTextField" binding="IMailE">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-593426"/>
+                        </properties>
+                      </component>
+                      <component id="6750e" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="10"/>
+                          <text value="Correo Electronico del Estudiante"/>
+                        </properties>
+                      </component>
+                      <component id="5693f" class="javax.swing.JButton" binding="crearButtonE">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13985"/>
+                          <text value="Crear"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="66594" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Curso"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2433615"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="5de8f" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Selecciona el Curso"/>
+                        </properties>
+                      </component>
+                      <component id="4ed53" class="javax.swing.JComboBox" binding="SCurso">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="de060" class="javax.swing.JButton" binding="ACurso">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13985"/>
+                          <text value="Crear"/>
+                        </properties>
+                      </component>
+                      <component id="d1df6" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Selecciona el Catedratico"/>
+                        </properties>
+                      </component>
+                      <component id="71ee5" class="javax.swing.JComboBox" binding="SCatedratico">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="9a5ef" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Inscripción"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2433615"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="8422" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Ingrese el ID del Estudiante"/>
+                        </properties>
+                      </component>
+                      <component id="1ca9c" class="javax.swing.JTextField" binding="IIdE">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="e1af5" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Ingrese el ID del Curso"/>
+                        </properties>
+                      </component>
+                      <component id="dc74f" class="javax.swing.JButton" binding="ACursos">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13985"/>
+                          <text value="Asignar"/>
+                        </properties>
+                      </component>
+                      <component id="67471" class="javax.swing.JTextField" binding="IIdC">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+            </children>
+          </grid>
+          <grid id="d13b7" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Leer"/>
+            </constraints>
+            <properties>
+              <background color="-2433615"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <tabbedpane id="c2c05" binding="MostrarC">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-7773363"/>
+                  <font name="Segoe UI Black"/>
+                  <foreground color="-13688255"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="1b74e" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Estudiante"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2433615"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="8a21f" class="javax.swing.JTextField" binding="MostrarEstudiantes">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="d809" class="javax.swing.JLabel" binding="ingreseElIDDelLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-15132391"/>
+                          <font name="Unispace" size="14"/>
+                          <text value="Ingrese el ID del Estudiante"/>
+                        </properties>
+                      </component>
+                      <component id="fc847" class="javax.swing.JList" binding="listE">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-593426"/>
+                        </properties>
+                      </component>
+                      <component id="d989d" class="javax.swing.JButton" binding="ButtonME">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13985"/>
+                          <text value="Mostrar"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="10a8a" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Curso"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2433615"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="16b5b" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Ingrese el ID del Curso "/>
+                        </properties>
+                      </component>
+                      <component id="ebff9" class="javax.swing.JTextField" binding="MostrarCursos">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="3b7ad" class="javax.swing.JButton" binding="ButtonMC">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13985"/>
+                          <text value="Button"/>
+                        </properties>
+                      </component>
+                      <component id="fc961" class="javax.swing.JList" binding="listC">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-593426"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="aec7b" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Inscripción"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2433615"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="48c00" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="231" height="18"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Ingrese el ID de la Inscripccion"/>
+                        </properties>
+                      </component>
+                      <component id="7965b" class="javax.swing.JTextField" binding="MostrarInscripcion">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="8fa86" class="javax.swing.JButton" binding="buttonMI">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13985"/>
+                          <text value="Button"/>
+                        </properties>
+                      </component>
+                      <component id="4788f" class="javax.swing.JList" binding="listI">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-593426"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+            </children>
+          </grid>
+          <grid id="b2bef" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Actualizar"/>
+            </constraints>
+            <properties>
+              <background color="-2433615"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <tabbedpane id="49f62" binding="tabbedPane3" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-7773363"/>
+                  <font name="Segoe UI Black"/>
+                  <foreground color="-13688255"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="fab95" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Act.Estudiantes"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2433615"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="8827e" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Act. Nombre"/>
+                        </properties>
+                      </component>
+                      <component id="5bdca" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Act. Apellido"/>
+                        </properties>
+                      </component>
+                      <component id="4776e" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Act. Gmail"/>
+                        </properties>
+                      </component>
+                      <component id="fc97b" class="javax.swing.JTextField" binding="ActGmail">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="c568c" class="javax.swing.JTextField" binding="ActApellido">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="f848c" class="javax.swing.JTextField" binding="ActNombre">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="bc8c4" class="javax.swing.JButton" binding="actualizarButtonEstudiante">
+                        <constraints>
+                          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13985"/>
+                          <text value="Actualizar"/>
+                        </properties>
+                      </component>
+                      <component id="eca08" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Ingrese el ID a Actualizar"/>
+                        </properties>
+                      </component>
+                      <component id="26498" class="javax.swing.JTextField" binding="ActIdE">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="ad13c" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Act.Cursos"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2433615"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="52a3f" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Act. Curso"/>
+                        </properties>
+                      </component>
+                      <component id="717e8" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Ingrese el ID a Actualizar"/>
+                        </properties>
+                      </component>
+                      <component id="40cc1" class="javax.swing.JTextField" binding="ActIdC">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="1e0e4" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Act. Profesor"/>
+                        </properties>
+                      </component>
+                      <component id="463b9" class="javax.swing.JButton" binding="actualizarButtonCurso">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13985"/>
+                          <text value="Actualizar"/>
+                        </properties>
+                      </component>
+                      <component id="94c4f" class="javax.swing.JComboBox" binding="ActCurso">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="62e3a" class="javax.swing.JComboBox" binding="ActProfesor">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="1cf5b" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Act.Inscripciones"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2433615"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="2cfb5" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Ingrese el ID a Actualizar"/>
+                        </properties>
+                      </component>
+                      <component id="e3609" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Ingrese el ID de Estudiante"/>
+                        </properties>
+                      </component>
+                      <component id="4c964" class="javax.swing.JTextField" binding="ActIdI">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="82089" class="javax.swing.JTextField" binding="ActIdEstudiante">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="60645" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Ingrese el ID de Curso"/>
+                        </properties>
+                      </component>
+                      <component id="19c6a" class="javax.swing.JTextField" binding="ActIdCurso">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="251d2" class="javax.swing.JButton" binding="actualizarButtonInscripcion">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13985"/>
+                          <text value="Actualizar"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+            </children>
+          </grid>
+          <grid id="29593" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Borrar"/>
+            </constraints>
+            <properties>
+              <background color="-2433615"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <tabbedpane id="1d9fe" binding="tabbedPane4" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-7773363"/>
+                  <font name="Segoe UI Black"/>
+                  <foreground color="-13688255"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="b1ca6" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Borrar Estudiante"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2433615"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="5d35b" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Ingrese el ID del estudiante a eliminar"/>
+                        </properties>
+                      </component>
+                      <component id="444a2" class="javax.swing.JButton" binding="deletButtonEstudiante">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13985"/>
+                          <text value="Borrar"/>
+                        </properties>
+                      </component>
+                      <component id="2413c" class="javax.swing.JTextField" binding="DeletEstudiante">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="d3823" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Borrar Curso"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2433615"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="ea18" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Ingrese el ID del curso a eliminar"/>
+                        </properties>
+                      </component>
+                      <component id="6d3ab" class="javax.swing.JTextField" binding="DeletCurso">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="718e0" class="javax.swing.JButton" binding="deletButtonCurso">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13985"/>
+                          <text value="Borrar"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="6ab39" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Borrar Inscripción"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2433615"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="352ac" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Unispace" size="14"/>
+                          <text value="Ingrese el ID de la inscripcion a eliminar"/>
+                        </properties>
+                      </component>
+                      <component id="74bbe" class="javax.swing.JTextField" binding="DeletInscripcion">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="2a667" class="javax.swing.JButton" binding="deletButtonInscripcion">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13985"/>
+                          <text value="Borrar"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <component id="2ff2f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15132391"/>
+          <font name="Unispace" size="24"/>
+          <text value="Selecciona la opción deseada"/>
+        </properties>
+      </component>
+      <grid id="af642" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2433615"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="35776" class="javax.swing.JButton" binding="salirButton2">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7984371"/>
+          <foreground color="-593426"/>
+          <text value="Salir"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

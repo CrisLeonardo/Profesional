@@ -1,0 +1,6 @@
+Este un programa el cual interactua con una base de datos en postgres en la cual me conecto mediante docker esta base de datos esta echa para poder agregar, editar, borrar y leer los datos de estudiantes en el cual esta echo mediante una interface grafica sencilla pero funcional.
+
+La contraseña y el usuario estan a simple vista en el codigo pero son las siguientes:
+
+usuario: 1
+contraseña: 1
